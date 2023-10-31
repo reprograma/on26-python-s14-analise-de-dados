@@ -1,10 +1,23 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+# Desafio da Semana 14
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+**Objetivo:** Por em prática os conhecimentos de Análise de Dados que aprendemos nessa aula.
+
+**Desafio:** Criar um notebook de análise exploratória (como fizemos na nossa aula de hoje) com todas as etapas de coleta, limpeza, análise e visualização com base de dados da Olist.
+
+## Requisitos:
+
+* Formular o mínimo de 4 perguntas para responder com suas análises;
+
+* Utilizar pelo menos 3 bases de dados da Olist (caso você deseje criar sua base do zero). Caso deseje continuar utilizando a que criamos em aula, é necessário incluir pelo menos mais 2 tabelas para enriquecer sua análise.
+
+* Criar pelo menos 3 gráficos.
+* Exporte sua base final.
+* Submeta uma pasta que contenha:
+    * o arquivo seu_nome.ipynb com sua análise exploratória;
+    * a base final criada por você no formato .csv;
+    * as bases da olist em .csv que você utilizou na criação da sua analise exploratória.
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
