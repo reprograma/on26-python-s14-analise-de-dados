@@ -1,58 +1,39 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+## Atividade didática - Curso de Análise de Dados em Python - Zênite Serena - Tratamento e Análise de dados
 
-# Tema da Aula
+### Contextualização
 
-Turma Online 26 | Python | Semana 14 | 2023 | Professora Deborah Foroni
+Atividade que fez parte do bootcamp "Python: Fundamentos e Análise de Dados" da [{reprograma}](https://reprograma.com.br/curso-python/), realizado no segundo semestre de 2023. A presente atividade foi realizada na Semana 14 do curso.
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
+[Repositório no GitHub](https://github.com/zenite-serena/Atividade-Didatica-Analise-de-Dados)
 
-### Resumo
-O que veremos na aula de hoje?
+Objetivo: Sedimentar os conhecimentos de Análise de Dados estudados em aula. 
 
-<a name="ancora"></a>
+Desafio: Criar um notebook de análise exploratória com todas as etapas de coleta, limpeza, análise e visualização com base de dados da Olist.
 
-* [Diferença entre Banco de Dados e Dados](#Tema1)
-* [Explorando os dados da Netflix](#Tema2)
-* [Explorando os dados da Olist com mais de um dataset](#Tema3)
+Requisitos:
 
-## Conteúdo
-### <a id="Tema1"></a>
-### Análise de Dados
+- Formular um mínimo de 3 perguntas para guiar a análise;
+- Utilizar pelo menos 3 bases de dados da Olist;
+- Criar pelo menos 3 gráficos;
+- Exportar a base final.
 
-1. Diferença entre Banco de Dados e Dados
-    
-    Nas aulas anteriores, vocês aprenderam sobre banco de dados, como funcionam, e tiveram uma breve apresentação sobre pensamento analítico e o uso da biblioteca Pandas para manipular dados. Nesta aula, iremos aprofundar nossos conhecimentos em dados. Porém, antes de tudo é importante entender um conceito importante sobre dados: o que difere um dado do banco de dados para um dado em um gráfico? O processamento dessa informação. 
-  
-### <a id="Tema2"></a>
-### Explorando os dados da Netflix 
-    
-* Coleta de dados;
-* Limpeza de Dados;    
-* Análise de Dados;
-* Visualização de Dados;
+### Objetivos da análise
 
+As seguintes perguntas guiaram a análise:
 
-### <a id="Tema3"></a>   
-### Explorando os dados da Olist com mais de um dataset
+- qual a relação entre estado e valor de frete?
+- quais as categorias dos produtos mais vendidos?
+- qual a relação entre nota dada (review score) e status de entrega (atrasado, adiantado, entregue)?
 
-* Coleta de dados;
-* Limpeza de Dados;    
-* Análise de Dados;
-* Visualização de Dados;
+### Tratamento de dados
 
-***
-### Exercícios 
-* [Exercicio para sala](https://github.com/reprograma/on26-python-s14-analise-de-dados/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/reprograma/on26-python-s14-analise-de-dados/tree/main/exercicios/para-casa)
+Na limpeza e tratamento de dados foram feitas a filtragem de colunas, remoção de colunas, filtragem de linhas, resetagem de index, merge de df, contagem de valores, conversão de valores, agrupamento de valores, ranqueamento de valores.
 
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
+### Visualizações
+
+<img aria-label="Relação entre valor de frete e estado da UF" src="exercicios\para-casa_zenite_serena\frete_por_estado.png" width="75%"/>
+
+<img aria-label="Relação entre status de entrega e review score" src="exercicios\para-casa_zenite_serena\status_entrega_review_score.png" width="75%"/>
+
+<img aria-label="Top 10 Categorias de produtos mais vendidos" src="exercicios\para-casa_zenite_serena\top10_categorias.png" width="75%"/>
 
